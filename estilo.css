@@ -43,13 +43,12 @@ table {
 }
 
 body{
-z-index: -1;
 background: #092C52;
 }
 
 .cabecalho{
 position: absolute;
-width: 1440px;
+width: 1700px;
 height: 60px;
 background: #FFFFFF;
 }
@@ -175,8 +174,66 @@ line-height: 25px;
 color: #FFFFFF;
 }
 /*PARTE 2  --------------------------------------------------------------------------------------------------*/
+.esquerdo-pt2{
+position: absolute;
+width: 370px;
+height: 360px;
+left: 835px;
+top: 858px;
+background: url(imagens/PT2.png);
+}
 
-.esquerda-pt2{
+.subtitulo{
+position: absolute;
+width: 169px;
+height: 32px;
+left: 235px;
+top: 950px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
 
 
 }
+
+.titulo-pt2{
+position: absolute;
+width: 360px;
+height: 32px;
+left: 235px;
+top: 997px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.conteudo-pt2{
+position: absolute;
+width: 520px;
+height: 77px;
+left: 235px;
+top: 1059px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+}
+
