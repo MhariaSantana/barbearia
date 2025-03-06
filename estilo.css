@@ -249,17 +249,52 @@ background: #092C52;
 }
 
 .aspas{
-    
-    width: 43px;
-    
+position: absolute;
+width: 43px;
+display: flex;
+align-items: center;
+left: 682px;
+padding-top: 40px;
 
 
 
+}
+
+.titulo-pt3{
+position: absolute;
+width: 392px;
+height: 30px;
+left: 525px;
+top: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #F99420;
 
 
+}
+.subtutulo-pt3{
+position: absolute;
+width: 107px;
+height: 25px;
+left: 667px;
+top: 150px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
 
+display: flex;
+align-items: center;
 
+color: #FFFFFF;
 
 
 }
