@@ -43,7 +43,7 @@ table {
 }
 
 body{
-background: #092C52;
+background-color: #fff;
 }
 
 .cabecalho{
@@ -119,6 +119,16 @@ top: 15.62px;
 bottom: 15.62%;
 }
 
+/*PARTE 1----------------------------------------------------------------------------------------------------------------------------------*/
+.fundo-pt1{
+position: absolute;
+width: 1700px;
+height: 708px;
+left: 0px;
+top: 60px;
+background: #092C52;
+
+}
 .esquerda{
 position: absolute;
 width: 470px;
@@ -174,6 +184,7 @@ line-height: 25px;
 color: #FFFFFF;
 }
 /*PARTE 2  --------------------------------------------------------------------------------------------------*/
+
 .esquerdo-pt2{
 position: absolute;
 width: 370px;
@@ -196,11 +207,7 @@ font-size: 21px;
 line-height: 25px;
 display: flex;
 align-items: center;
-
-color: #FFFFFF;
-
-
-
+color: #092C52;
 }
 
 .titulo-pt2{
@@ -216,8 +223,7 @@ font-size: 34px;
 line-height: 40px;
 display: flex;
 align-items: flex-end;
-
-color: #FFFFFF;
+color: #092C52;
 }
 .conteudo-pt2{
 position: absolute;
@@ -230,10 +236,30 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
+color: #092C52;
+}
+/*PARTE 3---------------------------------------------------------------------------------------------------------------------------------*/
+.fundo-pt3{
+position: absolute;
+width: 1700px;
+height: 370px;
+left: 0px;
+top: 1308px;
+background: #092C52;
+}
 
-color: #FFFFFF;
+.aspas{
+    
+    width: 43px;
+    
+
+
+
+
+
+
+
 
 
 
 }
-
